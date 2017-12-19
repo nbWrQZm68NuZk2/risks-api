@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "aws_region": "eu-central-1",
+        "django_settings": "risks_api.settings.develop",
+        "profile_name": "default",
+        "project_name": "risks-api",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-663loh56f",
+        "vpc_config" : {
+                "SubnetIds": [ "subnet-1c5edb77", "subnet-a110bfec", "subnet-dc0cf2a1" ],
+                "SecurityGroupIds": [ "sg-6b93ef01" ]
+        },
+      "timeout_seconds": 300
+    }
+}
